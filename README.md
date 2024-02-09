@@ -1,6 +1,13 @@
 # Register&Login
+- [Register\&Login](#registerlogin)
+  - [介绍](#介绍)
+  - [功能](#功能)
+    - [版本一](#版本一)
+    - [版本二](#版本二)
+  - [其他问题](#其他问题)
+    - [生成目录](#生成目录)
+    - [解决](#解决)
 
-[toc]
 
 ## 介绍
 
@@ -28,3 +35,13 @@
 - 将注册的用户名、密码和电话等信息保存在文件中（CSV文件）
 - 在使用CSV保存用户数据的情况下，让用户 可以修改密码（输入用户名、旧密码、新密码）
 - 用户在输入密码或电话，如果输错超过3次，则结束运行
+
+## 其他问题
+
+### 生成目录
+- 我再提交后发现GitHub中md文件不支持通过头部的`[toc]`自动生成文章目录
+
+### 解决
+- 在VS Code中安装插件：`Markdown All in One`
+  ![image-20240209151119279](https://s2.loli.net/2024/02/09/vw2Vt6FKXlZgkiN.png)
+- 按下CTRL+SHIFT+P打开命令面板输入：`markdown all in one : create table of contents;`即可生成目录
