@@ -66,7 +66,7 @@ def do_regi(name=None):
 def do_login():
     name = input("用户名：")
     if not ver_name(name):
-        print("\033[31m用户名不符合规则【0m")
+        print("\033[31m用户名不符合规则[0m")
         do_login()
     i = get_user(path, name)
     user_list = file_read(path)
